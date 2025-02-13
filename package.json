@@ -1,0 +1,12 @@
+{
+  "name": "nfl-monte-carlo",
+  "version": "1.0.0",
+  "description": "a simple monte carlo simulation for nfl games",
+  "license": "ISC",
+  "author": "Jordan Boyce",
+  "type": "commonjs",
+  "main": "mc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
