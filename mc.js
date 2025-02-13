@@ -25,7 +25,7 @@ const adjustForInjuries = (probability, teamAInjury, teamBInjury) => {
 };
 
 (async () => {
-  console.log("\n🏈 NFL Monte Carlo Simulation: Predict the Winner! 🏈");
+  console.log("\n Monte Carlo Simulation: Predict the Winner! ");
 
   // Get user input
   const teamA = await askQuestion("Enter the name of Team A: ");
@@ -74,8 +74,8 @@ const adjustForInjuries = (probability, teamAInjury, teamBInjury) => {
 
   // Output results with user inputs
   console.log("\n=== INPUT PARAMETERS ===");
-  console.log(`🏈 Team A: ${teamA}`);
-  console.log(`🏈 Team B: ${teamB}`);
+  console.log(`Team A: ${teamA}`);
+  console.log(`Team B: ${teamB}`);
   console.log(`📊 Point Spread: ${pointSpread}`);
   console.log(`🏟️ Home-Field Advantage: ${homeFieldAdvantage}`);
   console.log(`🚑 Injury Impact (${teamA}): ${teamAInjury}`);
